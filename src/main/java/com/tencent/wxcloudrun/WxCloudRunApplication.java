@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WxCloudRunApplication {  
 
   public static void main(String[] args) {
+    System.out.println("here i am");
     SpringApplication.run(WxCloudRunApplication.class, args);
   }
 }
